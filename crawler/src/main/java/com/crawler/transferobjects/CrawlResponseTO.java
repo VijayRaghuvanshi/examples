@@ -1,10 +1,10 @@
 /**
  *
  */
-package com.crawler.model;
+package com.crawler.transferobjects;
 
 /**
- * Response classs contains response data for a crawl request.
+ * Response class contains response data for a crawl request.
  *
  * @author vijaykumar
  * @version $Revision: 1.10 $
@@ -50,6 +50,19 @@ public class CrawlResponseTO {
      */
     public void setMessage(String message) {
         this.message = message;
+    }
+    /**
+     * {@inheritDoc}
+     */
+    @Override
+    public String toString() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append("CrawlResponseTO [token=");
+        builder.append(token);
+        builder.append(", message=");
+        builder.append(message);
+        builder.append("]");
+        return builder.toString();
     }
 
 

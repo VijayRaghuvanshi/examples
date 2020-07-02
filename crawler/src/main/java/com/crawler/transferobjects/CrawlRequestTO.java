@@ -1,5 +1,6 @@
-package com.crawler.model;
+package com.crawler.transferobjects;
 
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
@@ -11,11 +12,11 @@ import javax.validation.constraints.NotNull;
  */
 public class CrawlRequestTO {
 
-    @NotNull(message="Add depth between 1 to 4.")
+    @NotNull(message="Add depth between 1 to 4")
+    @Min(value=1, message="Depth value cann't be less then 1")
     private Integer depth;
 
-    @NotNull(message="URL cann't be null")
-    @NotBlank(message="depth cann't be blank.")
+    @NotBlank(message="URL is mandatory.")
     private String url;
 
     /**
