@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JokeServer.iml" filepath="$PROJECT_DIR$/JokeServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning.java.nine.jokeapp/learning.java.nine.jokeapp.iml" filepath="$PROJECT_DIR$/learning.java.nine.jokeapp/learning.java.nine.jokeapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning.java.nine.jokeserver/learning.java.nine.jokeserver.iml" filepath="$PROJECT_DIR$/learning.java.nine.jokeserver/learning.java.nine.jokeserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning.java.nine.jokeserver.kid/learning.java.nine.jokeserver.kid.iml" filepath="$PROJECT_DIR$/learning.java.nine.jokeserver.kid/learning.java.nine.jokeserver.kid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning.java.nine.jokeserver.programmer/learning.java.nine.jokeserver.programmer.iml" filepath="$PROJECT_DIR$/learning.java.nine.jokeserver.programmer/learning.java.nine.jokeserver.programmer.iml" />
+    </modules>
+  </component>
+</project>
