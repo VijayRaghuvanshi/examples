@@ -1,0 +1,2 @@
+JAVA_VERSION="11.0.7"
+MODULES="java.base java.logging learning.java.nine.jokeserver learning.java.nine.jokeapp"
